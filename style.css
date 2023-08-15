@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Corinthia&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Satisfy&display=swap');
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+ }
+
+body {
+    overflow: hidden;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: linear-gradient( to bottom,#f1f4f9,#dff1ff);
+}
+
+section .color {
+    position: absolute;
+}
+
+section .color:nth-child(1) {
+
+}
